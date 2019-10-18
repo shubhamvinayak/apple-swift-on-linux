@@ -5,6 +5,6 @@ node {
   // This step should not normally be used in your script. Consult the inline help for details.
 withDockerContainer('node:carbon') {
     sh 'node --version'
-}
+
   }
 }
