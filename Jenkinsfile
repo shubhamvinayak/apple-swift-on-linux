@@ -6,7 +6,7 @@ node {
 withDockerRegistry(credentialsId: 'dockerhub', url: 'https://registry.hub.docker.com') {
 }
   // This step should not normally be used in your script. Consult the inline help for details.
-withDockerContainer('node:carbon') {
+withDockerContainer('docker.bintray.io/jfrog/artifactory-pro:latest') {
     // some block
 }
 }
